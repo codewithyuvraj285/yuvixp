@@ -1,0 +1,32 @@
+<svg width="1440" height="300" viewBox="0 0 1440 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f1a"/>
+      <stop offset="100%" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2067ED"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1440" height="300" rx="16" fill="url(#bg)"/>
+  <g font-family="Courier New, monospace" font-size="14" fill="#2067ED" opacity="0.18">
+    <text x="60" y="40">&lt;?php echo "Bizaro Media"; ?&gt;</text>
+    <text x="980" y="70">POST /api/payment/verify</text>
+    <text x="1100" y="250">$ php artisan serve</text>
+    <text x="90" y="260">function automate($process) { return $growth; }</text>
+    <text x="560" y="30">{ "status": "deployed" }</text>
+  </g>
+  <circle cx="1240" cy="150" r="90" fill="none" stroke="#2067ED" stroke-width="2" opacity="0.5" filter="url(#glow)">
+    <animate attributeName="r" values="80;100;80" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1240" cy="150" r="55" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.6">
+    <animate attributeName="r" values="50;65;50" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1240" y="160" text-anchor="middle" font-family="Courier New, monospace" font-size="34" font-weight="bold" fill="#fff" filter="url(#glow)">&lt;/&gt;</text>
+  <text x="80" y="135" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Yuvraj Ayangar</text>
+  <rect x="80" y="152" width="320" height="5" rx="2" fill="url(#accent)"/>
+  <text x="80" y="200" font-family="Courier New, monospace" font-size="26" fill="#9db7ff">Software Developer  |  Founder, Bizaro Media</text>
+  <text x="80" y="240" font-family="Courier New, monospace" font-size="18" fill="#6c7da8">PHP  •  Automation  •  Payment Gateways  •  Web Platforms</text>
+</svg>
